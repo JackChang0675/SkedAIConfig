@@ -1,3 +1,3 @@
-ortools: main
-prerelease: true
-version: 0.0.1
+ortools_branch: main
+is_prerelease: true
+version_number: 0.0.1
