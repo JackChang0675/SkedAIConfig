@@ -5,6 +5,7 @@ on: [push]
 jobs:
   trigger:
     runs-on: ubuntu-latest
+    environment: env
     steps:
       - name: Trigger Action in Other Repo
         run: |
