@@ -13,5 +13,5 @@ jobs:
             -X POST \
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token ${{ secrets.PAT }}" \
-            "https://api.github.com/repos/JackChang0675/SkedAIServer/dispatches" \
+            "https://api.github.com/repos/proshkin/SkedAIServer/dispatches" \
             --data '{"event_type": "windows_build_trigger", "client_payload": {"key": "value"}}'
