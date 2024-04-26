@@ -14,4 +14,4 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token ${{ secrets.PAT }}" \
             "https://api.github.com/repos/proshkin/SkedAIServer/dispatches" \
-            --data '{"event_type": "windows_build_trigger", "client_payload": {"key": "value"}}'
+            --data '{"event_type": "build_trigger", "client_payload": {"key": "value"}}'
